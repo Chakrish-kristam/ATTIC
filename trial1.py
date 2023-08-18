@@ -10,9 +10,9 @@ import re
 import requests
 
 # Load the model and data
-directory = "saved_model"
-file_path = os.path.join(directory, "nearest_neighbors.joblib")
-nn = joblib.load(file_path)
+# directory = "saved_model"
+# file_path = os.path.join(directory, "nearest_neighbors.joblib")
+nn = joblib.load(nearest_neighbors.joblib)
 
 # Read the CSV file using pandas
 movies = pd.read_csv("moviesdatabase.csv", encoding='ISO-8859-1')
