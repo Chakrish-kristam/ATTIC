@@ -1,3 +1,2 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
-path/to/moviesdatabase.csv filter=lfs diff=lfs merge=lfs -text
 moviesdatabase.csv filter=lfs diff=lfs merge=lfs -text
