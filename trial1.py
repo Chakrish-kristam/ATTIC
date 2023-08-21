@@ -10,8 +10,8 @@ import re
 import requests
 
 # Load the model and data
-directory = "saved_model"
-file_path = os.path.join(directory, "nearest_neighbors.joblib")
+# directory = "saved_model"
+file_path = "nearest_neighbors.joblib" # os.path.join(directory, "nearest_neighbors.joblib")
 nn = joblib.load(file_path)
 
 # Read the CSV file using pandas
