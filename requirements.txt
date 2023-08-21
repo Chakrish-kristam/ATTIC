@@ -1,0 +1,9 @@
+streamlit 
+pandas 
+os
+joblib
+tensorflow.keras
+scikit_learn==1.2.2
+re
+requests
+string
